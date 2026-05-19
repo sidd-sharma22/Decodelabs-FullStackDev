@@ -142,6 +142,25 @@ nav a {
   margin-bottom: 10px;
 }
 
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.mission-image {
+  background: white;
+  border-radius: 12px;
+  min-height: 260px;
+  overflow: hidden;
+}
+
+.mission-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* CTA */
 #cta {
   text-align: center;
@@ -210,6 +229,16 @@ footer section {
 
   .feature-cards {
     flex-direction: row;
+  }
+
+  .mission-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .mission-image,
+  .mission-text {
+    flex: 1;
   }
 
   footer {

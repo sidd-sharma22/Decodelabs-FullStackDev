@@ -7,6 +7,7 @@ from app.routes import router
 # Create Tables
 models.Base.metadata.create_all(bind=engine)
 
+# Swagger Description
 app = FastAPI(
     title="StudyHub API",
     description="Task management backend using FastAPI + PostgreSQL",
@@ -14,7 +15,6 @@ app = FastAPI(
 )
 
 app.include_router(router)
-
 
 @app.get("/")
 def home():

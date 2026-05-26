@@ -3,7 +3,7 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.database import Base
 
-
+# Users Table
 class User(Base):
     __tablename__ = "users"
 
@@ -13,7 +13,7 @@ class User(Base):
 
     tasks = relationship("Task", back_populates="owner")
 
-
+# Tasks Table
 class Task(Base):
     __tablename__ = "tasks"
 

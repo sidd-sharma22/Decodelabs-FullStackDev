@@ -7,7 +7,11 @@ from app.routes import router
 # Create Tables
 models.Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="StudyHub API")
+app = FastAPI(
+    title="StudyHub API",
+    description="Task management backend using FastAPI + PostgreSQL",
+    version="1.0.0"
+)
 
 app.include_router(router)
 

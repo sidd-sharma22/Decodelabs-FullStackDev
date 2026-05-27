@@ -7,9 +7,7 @@ This repository showcases frontend development, backend API engineering, and dat
 
 The Vercel deployed live demo link:
 
-```bash
-https://studyhub-decodelabs.vercel.app/
-```
+Live Demo: [https://studyhub-decodelabs.vercel.app/](https://studyhub-decodelabs.vercel.app/)
 
 ---
 

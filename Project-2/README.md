@@ -58,7 +58,15 @@ cd studyhub-api
 
 ---
 
-### 2. Create Virtual Environment
+### 2. Open Project Folder
+
+```bash
+cd Decodelabs-FullStackDev\Project-2\studyhub-api
+```
+
+---
+
+### 3. Create Virtual Environment
 
 ### Windows
 
@@ -76,7 +84,7 @@ source venv/bin/activate
 
 ---
 
-### 3. Install Dependencies
+### 4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -84,7 +92,7 @@ pip install -r requirements.txt
 
 ---
 
-### 4. Run Server
+### 5. Run Server
 
 ```bash
 uvicorn app.main:app --reload
@@ -316,4 +324,4 @@ This project was created for DecodeLabs Full Stack Development Internship - Proj
 ## Author
 
 Siddharth Sharma  
-CSE Student | Full Stack Development Intern
+CSE Student | Full Stack Development Intern - DecodeLabs

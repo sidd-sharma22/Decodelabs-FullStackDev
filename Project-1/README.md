@@ -252,13 +252,6 @@ Using platforms:
 
 ---
 
-# Author
-
-Siddharth
-Full Stack Development Intern – DecodeLabs
-
----
-
 # Acknowledgements
 
 * DecodeLabs Internship Program
@@ -268,13 +261,7 @@ Full Stack Development Intern – DecodeLabs
 
 ---
 
-# Submission Notes
+# Author
 
-This repository follows DecodeLabs submission recommendations:
-
-* Separate project repository
-* Organized project structure
-* README documentation
-* Proper file arrangement 
-
-Also developed while maintaining quality and originality standards. 
+Siddharth Sharma  
+CSE Student | Full Stack Development Intern - DecodeLabs

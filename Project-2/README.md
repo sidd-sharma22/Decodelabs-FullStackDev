@@ -53,7 +53,6 @@ studyhub-api/
 
 ```bash
 git clone https://github.com/sidd-sharma22/Decodelabs-FullStackDev.git
-cd studyhub-api
 ```
 
 ---
@@ -122,7 +121,7 @@ http://127.0.0.1:8000/docs
 
 ## Root Endpoint
 
-### GET /
+`GET /`
 
 Returns API status.
 
@@ -138,17 +137,15 @@ Response:
 
 # Task APIs
 
-## Get All Tasks
+Get All Tasks:
 
-### GET /tasks/
+`GET /tasks/`
 
 Returns all tasks.
 
----
-
 ## Create Task
 
-### POST /tasks/
+`POST /tasks/`
 
 Request:
 
@@ -169,23 +166,17 @@ Response:
 }
 ```
 
----
-
 ## Get Single Task
 
-### GET /tasks/{task_id}
-
----
+`GET /tasks/{task_id}`
 
 ## Update Task
 
-### PUT /tasks/{task_id}
-
----
+`PUT /tasks/{task_id}`
 
 ## Delete Task
 
-### DELETE /tasks/{task_id}
+`DELETE /tasks/{task_id}`
 
 Returns:
 
@@ -195,15 +186,13 @@ Returns:
 
 # Session APIs
 
-## Get All Sessions
+Get All Sessions:
 
-### GET /sessions/
-
----
+`GET /sessions/`
 
 ## Create Study Session
 
-### POST /sessions/
+`POST /sessions/`
 
 Request:
 
@@ -230,7 +219,7 @@ Response:
 
 ## Get Progress Summary
 
-### GET /progress
+`GET /progress`
 
 Response:
 
@@ -249,7 +238,7 @@ Response:
 
 # Health Check API
 
-## GET /health
+`GET /health`
 
 Response:
 

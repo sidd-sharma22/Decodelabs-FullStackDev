@@ -7,8 +7,7 @@ This project was developed following the DecodeLabs Project Plan and accessibili
 ---
 
 ## Live Demo
-
-Add your deployed link here:
+The deployed Vercel link:
 
 ```bash
 https://studyhub-decodelabs.vercel.app/
@@ -36,6 +35,7 @@ The layout was created according to the provided project specifications from Dec
 * Responsive mobile-first layout
 * Semantic HTML structure
 * Accessible navigation and buttons
+* Hamburger menu functionality
 * Hero section with CTA
 * Feature cards section
 * About/Mission section

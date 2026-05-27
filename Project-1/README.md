@@ -1,185 +1,280 @@
-# StudyHub Landing Page (Mobile-First Design)
+# StudyHub – Student Productivity Landing Page
 
-## Overview
-- A mobile-first website landing page for **StudyHub** focused on helping students manage time, stay focused, and track progress.
-- The experience prioritizes:
-  - Single-column mobile design
-  - Accessibility (WCAG)
-  - Semantic HTML structure
-  - Warm, grounded visual tone
+A responsive and accessible landing page built for the DecodeLabs Full Stack Development Internship Project. StudyHub is designed to help students stay focused, manage study sessions, track goals, and monitor productivity progress through a clean and mobile-first user experience.
+
+This project was developed following the DecodeLabs Project Plan and accessibility guidelines. 
 
 ---
 
-## Plan Details
+## Live Demo
 
-### Screen: Landing Page (Mobile-first; base 390px)
+Add your deployed link here:
 
-#### 1. Navbar (Header)
-- **Mobile:**
-  - StudyHub logo (left)
-  - Hamburger menu (right)
-  - "Skip to content" link (visible on focus)
-
-- **Tablet (≥768px):**
-  - Links: Home | Features | Contact
-  - Optional CTA button
-
-- **Desktop (≥1024px):**
-  - Full horizontal layout
-  - CTA on the right
-
-- **Accessibility:**
-  - Semantic `<header>` and `<nav>`
-  - Focus states
-  - ARIA labels
+```bash
+https://studyhub-decodelabs.vercel.app/
+```
 
 ---
 
-#### 2. Hero Section
-- **Mobile Layout:**
-  - Heading
-  - Subtext
-  - CTA button
-  - Image below
+# Project Overview
 
-- **Tablet/Desktop:**
-  - Two-column layout (text + image)
+StudyHub is a modern landing page focused on:
 
-- **Content:**
-  - **Heading:** Focus Better. Study Smarter.
-  - **Subtext:** A simple tool to help students stay productive.
-  - **CTA:** Get Started
+* Student productivity
+* Goal tracking
+* Time management
+* Progress visualization
+* Responsive mobile-first design
+* Accessibility and semantic HTML
 
-- **Typography:**
-  - Responsive using `clamp()`
+The layout was created according to the provided project specifications from DecodeLabs. 
 
 ---
 
-#### 3. Features Section
-- **Mobile:** Single column cards
-- **Tablet:** Two-column layout
-- **Desktop:** Three columns
+# Features
 
-**Features:**
-1. **Time Tracking**  
-   Log study sessions and see where your time goes.
-
-2. **Goal Setting**  
-   Create study goals and break them into manageable tasks.
-
-3. **Progress Reports**  
-   Visualize progress with weekly reports and streaks.
-
-- **Accessibility:**
-  - Icons + text labels
-  - Proper heading hierarchy
+* Responsive mobile-first layout
+* Semantic HTML structure
+* Accessible navigation and buttons
+* Hero section with CTA
+* Feature cards section
+* About/Mission section
+* CTA conversion section
+* Responsive footer
+* Tablet and desktop breakpoints
+* Fluid typography using `clamp()`
+* Montserrat + Roboto typography system
 
 ---
 
-#### 4. About Section
-- **Mobile:** Single paragraph
-- **Tablet/Desktop:** Two-column layout
+# Tech Stack
 
-**Text:**
-> StudyHub helps students build productive habits by combining straightforward time tracking, easy goal-setting, and clear progress reports. Built for focus and simplicity.
-
----
-
-#### 5. Footer
-- **Mobile:**
-  - Center-aligned
-  - Email + social links
-
-- **Tablet/Desktop:**
-  - Two-column layout
-
-- **Email:** contact@studyhub.app
+* HTML5
+* CSS3
+* Responsive Design
+* Flexbox
+* Media Queries
 
 ---
 
-## Mobile-First Strategy
-- Base design: ~390px
-- Breakpoints:
-  - Tablet: 768px
-  - Desktop: 1024px
-- Use fluid typography and spacing
+# Folder Structure
+
+```bash
+studyhub/
+│
+├── index.html
+├── style.css
+├── script.js
+├── icons
+├── images
+├── Public
+│
+└── README.md
+```
 
 ---
+
+# Design System
 
 ## Typography
 
-- **Fonts:**
-  - Headings: Montserrat
-  - Body: Roboto
+* Headings → Montserrat
+* Body Text → Roboto
 
-- **Weights:**
-  - 400 (Regular)
-  - 600 (SemiBold)
-  - 700 (Bold)
+Allowed font weights:
 
-- **Responsive Sizes:**
-    - Heading: ``clamp(1.5rem, 5vw, 2.25rem)``
-    - Subheading: clamp(1.125rem, 3.5vw, 1.5rem)
-    - Body: clamp(0.95rem, 1.8vw, 1.125rem)
+* 400
+* 600
+* 700
 
-## Accessibility (WCAG)
-
-- Semantic HTML: `header`, `nav`, `main`, `section`, `footer`
-- Proper heading structure (H1 → H2)
-- Alt text for all images
-- Keyboard navigation support
-- Visible focus states
-- Contrast ratio:
-  - 4.5:1 (normal text)
-  - 3:1 (large text)
-- "Skip to content" link
-- Descriptive labels (avoid "click here")
+As specified in the project plan. 
 
 ---
 
-## Visual Direction
+## Color Style
 
-- Warm and grounded design
-- Soft rounded corners (6–12px)
-- Calm blue/teal accents for CTAs
-- Light neutral background
-- Subtle shadows and elevation
-- Minimal and non-distracting motion
+* Warm neutral background
+* Calm orange-red CTA buttons
+* Soft shadows
+* Rounded corners
+* Accessible contrast ratios
 
----
-
-## Content Copy
-
-- **Brand:** StudyHub
-- **Hero Heading:** Focus Better. Study Smarter.
-- **Subtext:** A simple tool to help students stay productive.
-- **CTA:** Get Started
-
-### Features
-
-- **Time Tracking** — Log study sessions and see where your time goes.
-- **Goal Setting** — Create study goals and break them into manageable tasks.
-- **Progress Reports** — Visualize progress with weekly reports and streaks.
-
-### About
-
-StudyHub helps students build productive habits by combining straightforward time tracking, easy goal-setting, and clear progress reports. Built for focus and simplicity.
-
-### Footer Email
-
-contact@studyhub.app
+Following DecodeLabs visual direction guidelines. 
 
 ---
 
-## Handoff Notes
+# Responsive Breakpoints
 
-- Provide SVG icons for each feature
-- Include hero illustration or dashboard mockup
-- Use optimized images for mobile and desktop
-- Include font files or CDN links (Montserrat, Roboto)
-- Provide accessibility checklist:
-  - Headings structure
-  - Alt text
-  - Focus states
-  - Skip link
-- Ensure proper color contrast validation
+| Device  | Breakpoint |
+| ------- | ---------- |
+| Mobile  | Default    |
+| Tablet  | 768px      |
+| Desktop | 1024px     |
+
+Based on the provided mobile-first strategy. 
+
+---
+
+# Accessibility Features
+
+* Semantic HTML (`header`, `nav`, `main`, `section`, `footer`)
+* Accessible buttons and links
+* Hamburger menu functionality
+* Proper heading hierarchy
+* Responsive text scaling
+* WCAG-aware color contrast
+* Keyboard-friendly navigation
+* Descriptive alt text
+* Mobile-first readability
+
+As requested in the project standards. 
+
+---
+
+# Sections Included
+
+## Header
+
+* Brand logo
+* Navigation links
+* CTA button
+
+## Hero Section
+
+* Main headline
+* Supporting paragraph
+* CTA buttons
+* Dashboard mockup card
+
+## Features Section
+
+* Time Tracking
+* Goal Setting
+* Progress Reports
+
+## Mission Section
+
+* Productivity-focused description
+* Benefits list
+* Responsive layout
+
+## CTA Section
+
+* “Create Free Account” call-to-action
+
+## Footer
+
+* Resources links
+* Company links
+* Contact section
+* Copyright
+
+---
+
+#  How to Run Locally
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/sidd-sharma22/Decodelabs-FullStackDev.git
+```
+
+## 2. Open Project Folder
+
+```bash
+cd Decodelabs-FullStackDev\Project-1
+```
+
+## 3. Run Project
+
+Simply open:
+
+```bash
+index.html
+```
+
+in your browser.
+
+---
+
+# Learning Outcomes
+
+This project helped practice:
+
+* Semantic HTML
+* Responsive CSS
+* Mobile-first design
+* Flexbox layouts
+* Accessibility basics
+* Hamburger menu functionality
+* Typography systems
+* Layout structuring
+* Real-world frontend workflow
+
+---
+
+# Internship Context
+
+This project was created as part of the DecodeLabs Full Stack Development Industrial Training Program.
+
+Project focus:
+
+* Responsive frontend development
+* Accessibility
+* Semantic structure
+* Mobile-first UI implementation
+
+Project references:
+
+* Project Plan 
+* Backend API Development Guide 
+* Database Integration Guide 
+
+---
+
+# Future Improvements
+
+* Authentication pages
+* Dashboard integration
+* Backend API connection
+* Database integration
+* Dark mode support
+* User accounts
+
+---
+
+# Deployment
+
+Using platforms:
+
+* GitHub Pages
+* Vercel
+
+---
+
+# Author
+
+Siddharth
+Full Stack Development Intern – DecodeLabs
+
+---
+
+# Acknowledgements
+
+* DecodeLabs Internship Program
+* Visily Wireframing Tool
+* Google Fonts
+* Open-source web resources
+
+---
+
+# Submission Notes
+
+This repository follows DecodeLabs submission recommendations:
+
+* Separate project repository
+* Organized project structure
+* README documentation
+* Proper file arrangement 
+
+Also developed while maintaining quality and originality standards. 
